@@ -1,6 +1,7 @@
 # windows-security-check
 This is a short python script that checks some basic security parameters.
 I used a combination of checking the windows registry key, wmic and sc and some hashing functions to calculate the checksum of some critical DLLs for ZSCaler. 
+
 There is another separate text file that contains hash of those DLLs calculated in the healthy state (and are used to compared against every new hash calculation to indicate potential file integrity changes - due to either legitimate software update or malicious injections).
 
 1. wmic and sc are used to provide service status
