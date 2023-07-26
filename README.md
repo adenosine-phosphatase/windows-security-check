@@ -25,3 +25,5 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce -> check key
 Also if the new keys are created for services under
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\services -> check only if key exists
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce\services -> check only if key exists
+
+![image](https://github.com/adenosine-phosphatase/windows-security-check/assets/17417863/89976293-acea-4a97-b5c0-25741e2357c4)
